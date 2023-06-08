@@ -9,5 +9,5 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/u-root/u-root v0.8.1-0.20220512174536-db15641d3c71
 	github.com/vishvananda/netlink v1.1.1-0.20211118161826-650dca95af54
-	golang.org/x/sys v0.0.0-20211205182925-97ca703d548d
+	golang.org/x/sys v0.1.0
 )

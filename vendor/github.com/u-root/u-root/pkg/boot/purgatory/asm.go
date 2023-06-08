@@ -2,8 +2,11 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package linux
+package purgatory
 
+// Purgatories is a map of trampoline code for kexec load.
+//
+// Caller can make selection by key at load time.
 var Purgatories = map[string]*Purgatory{
 	"to32bit_3000": {
 		Name: "to32bit_3000",
